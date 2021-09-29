@@ -15,4 +15,4 @@ def test_user_amount():
 
     # We want that each test have a clean DB
     # This test will fail, but it shouldn't.
-    assert FakeStore.count() == 0
+    assert UserStore.count() == 0
